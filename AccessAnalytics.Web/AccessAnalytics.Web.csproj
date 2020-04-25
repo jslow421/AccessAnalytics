@@ -21,6 +21,7 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
+        <PackageReference Include="VueCliMiddleware" Version="3.1.1" />
     </ItemGroup>
 
     <ItemGroup>
@@ -33,7 +34,7 @@
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="ClientApp" />
+      <Folder Include="clientapp" />
     </ItemGroup>
 
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
