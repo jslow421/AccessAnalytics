@@ -4,3 +4,5 @@ obj/
 .idea/.idea.AccessAnalytics/.idea/
 
 .idea/
+
+AccessAnalytics.Web/appsettings.Development.json
