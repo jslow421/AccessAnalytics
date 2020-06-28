@@ -13,14 +13,14 @@ namespace AccessAnalytics.Web.Controllers
         {
             var client = new OktaClient(new OktaClientConfiguration
             {
-                OktaDomain = "https://dev-916703-admin.okta.com/",
+                OktaDomain = "",
                 AuthorizationMode = AuthorizationMode.PrivateKey,
-                ClientId = "0oahpd9vrANUKJGko4x6",
+                ClientId = "",
                 Scopes = new List<string> { "okta.users.read", "okta.apps.read", "okta.groups.read" },
                 PrivateKey =  new JsonWebKeyConfiguration("jsonString")
             });
 
-            var user = await client.Users.GetUserAsync("jslowik@gmail.com");
+            var user = await client.Users.GetUserAsync("");
         }
 
         [HttpPost("[action]")]
