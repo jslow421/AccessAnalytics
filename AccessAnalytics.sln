@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessAnalytics.Web", "AccessAnalytics.Web\AccessAnalytics.Web.csproj", "{BA0B4909-8731-4829-B12D-B2BA60FDD13B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessAnalytics.DataAccess", "AccessAnalytics.DataAccess\AccessAnalytics.DataAccess.csproj", "{014B929A-AD59-4DEA-A390-47B10170AF7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{BA0B4909-8731-4829-B12D-B2BA60FDD13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0B4909-8731-4829-B12D-B2BA60FDD13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0B4909-8731-4829-B12D-B2BA60FDD13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014B929A-AD59-4DEA-A390-47B10170AF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014B929A-AD59-4DEA-A390-47B10170AF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014B929A-AD59-4DEA-A390-47B10170AF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014B929A-AD59-4DEA-A390-47B10170AF7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
