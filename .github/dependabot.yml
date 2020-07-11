@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/AccessAnalytics.Web/clientapp"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "nuget"
+    directory: "/AccessAnalytics.Web"
+    schedule: 
+      interval: "daily"
+  - package-ecosystem: "nuget"
+    directory: "/AccessAnalytics.DataAccess"
+    schedule: 
+      interval: "daily"
