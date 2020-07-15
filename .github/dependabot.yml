@@ -3,12 +3,12 @@ updates:
   - package-ecosystem: "npm"
     directory: "/AccessAnalytics.Web/clientapp"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "nuget"
     directory: "/AccessAnalytics.Web"
     schedule: 
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "nuget"
     directory: "/AccessAnalytics.DataAccess"
     schedule: 
-      interval: "daily"
+      interval: "monthly"
